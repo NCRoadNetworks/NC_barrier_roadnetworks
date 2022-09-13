@@ -22,10 +22,10 @@ To reproduce the analysis, follow these steps
 
 > conda install -c conda-forge fiona gdal networkx osmnx requests scipy urllib3 zipp shapely rasterio geopandas pandas numpy matplotlib notebook tqdm -y
 ```
-### Step 1: run `getNCBarriers.ipynb` to get the barrier shapefiles
+### Step 1: run [`getNCBarriers.ipynb`](./src/getNCBarriers.ipynb) to get the barrier shapefiles
 
-### Step 2: run `getNCCUDEM.ipynb` to get the elevation data (CUDEM)
+### Step 2: run [`getNCCUDEM.ipynb`](./src/getNCCUDEM.ipynb) to get the elevation data (CUDEM)
 
-### Step 3: run `getExceedence.ipynb` to get the water level data (NOAA)
+### Step 3: run [`getExceedence.ipynb`](./src/getExceedence.ipynb) to get the water level data (NOAA)
 
-### Step 4: run `getRoads.ipynb` to get the road data (OSM)
+### Step 4: run [`getRoads.ipynb`](./src/getRoads.ipynb) to get the road data (OSM)
