@@ -1,2 +1,7 @@
-data/
+data/Barriers
+data/CUDEM
+data/Exceedance
+data/Roads
+
 src/.ipynb*
+src/cache

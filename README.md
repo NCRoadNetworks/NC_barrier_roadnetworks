@@ -24,3 +24,8 @@ To reproduce the analysis, follow these steps
 ```
 ### Step 1: run `getNCBarriers.ipynb` to get the barrier shapefiles
 
+### Step 2: run `getNCCUDEM.ipynb` to get the elevation data (CUDEM)
+
+### Step 3: run `getExceedence.ipynb` to get the water level data (NOAA)
+
+### Step 4: run `getRoads.ipynb` to get the road data (OSM)
