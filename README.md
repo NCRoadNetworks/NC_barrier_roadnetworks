@@ -20,8 +20,10 @@ To reproduce the analysis, follow these steps
 
 > conda activate roads
 
-> conda install -c conda-forge fiona gdal networkx osmnx requests scipy urllib3 zipp shapely rasterio geopandas pandas numpy matplotlib notebook tqdm -y
+> conda install -c conda-forge fiona gdal networkx osmnx requests scipy urllib3 zipp shapely rasterio geopandas pandas numpy matplotlib notebook tqdm contextily -y
 ```
+Note that an `environment.yml is also included in the repository.
+
 ### Step 1: run [`getNCBarriers.ipynb`](./src/getNCBarriers.ipynb) to get the barrier shapefiles
 
 ### Step 2: run [`getNCCUDEM.ipynb`](./src/getNCCUDEM.ipynb) to get the elevation data (CUDEM)
@@ -29,3 +31,5 @@ To reproduce the analysis, follow these steps
 ### Step 3: run [`getExceedence.ipynb`](./src/getExceedence.ipynb) to get the water level data (NOAA)
 
 ### Step 4: run [`getRoads.ipynb`](./src/getRoads.ipynb) to get the road data (OSM)
+
+### Step 5: run [`doAnalysis.ipynb`](./src/doAnalysis.ipynb) to analyze the assembled data

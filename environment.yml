@@ -1,0 +1,24 @@
+name: roads
+channels:
+  - defaults
+dependencies:
+  - fiona
+  - requests
+  - notebook
+  - scipy
+  - zipp
+  - pandas
+  - matplotlib
+  - rasterio
+  - shapely
+  - networkx
+  - tqdm
+  - numpy
+  - osmnx
+  - urllib3
+  - geopandas
+  - gdal
+  - seaborn
+  - ipyleaflet
+  - pyshp
+  - contextily
