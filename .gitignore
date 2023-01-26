@@ -2,6 +2,7 @@ data/Barriers
 data/CUDEM
 data/Exceedance
 data/Roads
+data/Downeast
 Results/
 
 src/.ipynb*
