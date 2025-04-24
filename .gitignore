@@ -3,7 +3,8 @@ data/CUDEM
 data/Exceedance
 data/Roads
 data/Downeast
+data/*
 Results/
-
+src/test.csv
 src/.ipynb*
 src/cache
